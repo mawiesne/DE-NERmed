@@ -43,7 +43,7 @@ In the demo example, the German sentence `Der Urin ist rot verfärbt.` will be p
 The results are logged to STD out / console. It should be similar to:
  
 ```
-INFO [main] OpenNLPModelServiceImpl(50) - Importing NLP model file 'DE-NERmed-Simple_2024-maxent.bin' ...
+INFO [main] OpenNLPModelServiceImpl(50) - Importing NLP model file 'DE-NERmed-Wiki_2023-maxent.bin' ...
 INFO [main] DENerMedDemo(50) - Detecting NEs for: 'Der Urin ist rot verfärbt.'
 INFO [main] DENerMedDemo(80) - Found NE 'Urin' - [pos: 2, prob: 0,95]
 ```
