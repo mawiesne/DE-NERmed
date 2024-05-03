@@ -74,10 +74,10 @@ The training of NER models was conducted based on the open-source NLP toolkit [A
 For the generation of NER models, the OpenNLP training parameters were chosen as follows:
 
 ```
-train-ing.algorithm=maxent
+training.algorithm=maxent
 training.iterations=100
 training.cutoff=3
-train-ing.threads=8
+training.threads=8
 language=de
 use.token.end=false
 sentences.per.sample=3
