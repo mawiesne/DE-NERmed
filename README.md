@@ -59,7 +59,7 @@ The complete set of files consists of two models:
 | DE-NERmed-Simple_2024-maxent.bin | TODO | TODO                                                                                   |
 | DE-NERmed-Wiki_2023-maxent.bin   | 362M | [Yes](https://download.it.hs-heilbronn.de/de-nermed/DE-NERmed-Wiki_2023-maxent.bin) |
 
-If you clone this repository, only the _DE-NERmed_Simple_2022-maxent.bin_ model will be included in the `models`
+If you clone this repository, only the _DE-NERmed_Simple_2024-maxent.bin_ model will be included in the `models`
 directory of this Git repository. For reasons of limited storage, you'll have to download all other
 [model files](https://download.it.hs-heilbronn.de/de-nermed/) separately. 
 Once retrieved, place those model files in the `models` directory to start experimenting with it.
