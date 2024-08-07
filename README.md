@@ -1,6 +1,9 @@
 # DE-NERmed
 
-![Build Status](https://github.com/mawiesne/DE-NERmed/actions/workflows/maven.yml/badge.svg)
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/mawiesne/DE-NERmed/main/LICENSE)
+[![Build Status](https://github.com/mawiesne/DE-NERmed/actions/workflows/maven.yml/badge.svg)](https://github.com/mawiesne/DE-NERmed/actions)
+[![Contributors](https://img.shields.io/github/contributors/mawiesne/DE-NERmed)](https://github.com/mawiesne/DE-NERmed/graphs/contributors)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/mawiesne/DE-NERmed.svg)](https://github.com/mawiesne/DE-NERmed/pulls)
 
 DE-NERmed (_pronounced_: de:e: ner:med:) is an object-oriented named entity recognizer (NER) for German texts with a focus on the (bio)medical domain.
                 
