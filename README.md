@@ -59,7 +59,7 @@ The complete set of files consists of two models:
 | DE-NERmed-Simple_2024-maxent.bin | TODO | TODO                                                                                   |
 | DE-NERmed-Wiki_2023-maxent.bin   | 362M | [Yes](https://download.it.hs-heilbronn.de/de-nermed/DE-NERmed-Wiki_2023-maxent.bin) |
 
-If you clone this repository, only the _DE-NERmed_Simple_2022-maxent.bin_ model will be included in the `models`
+If you clone this repository, only the _DE-NERmed_Simple_2024-maxent.bin_ model will be included in the `models`
 directory of this Git repository. For reasons of limited storage, you'll have to download all other
 [model files](https://download.it.hs-heilbronn.de/de-nermed/) separately. 
 Once retrieved, place those model files in the `models` directory to start experimenting with it.
@@ -74,10 +74,10 @@ The training of NER models was conducted based on the open-source NLP toolkit [A
 For the generation of NER models, the OpenNLP training parameters were chosen as follows:
 
 ```
-train-ing.algorithm=maxent
+training.algorithm=maxent
 training.iterations=100
 training.cutoff=3
-train-ing.threads=8
+training.threads=8
 language=de
 use.token.end=false
 sentences.per.sample=3
