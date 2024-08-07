@@ -67,6 +67,7 @@ The complete set of files consists of two models:
 |-----------------------------------------|--------|--------|-------------|--------------|-------------------------------------------------------------------------------------------|
 | DE-NERmed-Wiki_2023-maxent.bin          | 0.8761 | 0.8922 | 342.2MB     | ~4096MB      | [Yes](https://download.it.hs-heilbronn.de/de-nermed/DE-NERmed-Wiki_2023-maxent.bin)        |
 | DE-NERmed-Wiki_2023-medium-maxent.bin   | 0.8543 | 0.8754 | 57.6MB      | ~672MB       | [Yes](https://download.it.hs-heilbronn.de/de-nermed/DE-NERmed-Wiki_2023_medium-maxent.bin) |
+
 _Table 1: Relevant properties of DE-NERmed models: performance (F1, Accuracy), binary size and memory required._
 
 ## Training details
