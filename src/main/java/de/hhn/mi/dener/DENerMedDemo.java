@@ -14,6 +14,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
+
 public class DENerMedDemo {
 
   private static final Logger LOG = org.slf4j.LoggerFactory.getLogger(DENerMedDemo.class);
@@ -21,27 +22,30 @@ public class DENerMedDemo {
   private static NamedEntityRecognizer NER_SERVICE;
 
   private static final List<String> DEMO_TEXTS =
-          List.of(// Example 1
-                  "Der Urin des Patienten ist rot verfärbt.",
-                  // Example 2
-                  "Die Patientin verneinte ebenfalls Husten mit Auswurf oder Brennen während Wasserlassens. " +
-                          "Sie hatte jedoch deutlich erhöhte Temperatur und Schüttelfrost in den letzten Tagen. ",
-                  // Example 3
-                  "Nach Aufnahme fetter Nahrung gibt sie Bauchschmerzen an. " +
-                          "Gestern Abend Beginn mit Husten und Übelkeit, dabei sporadisch Druckgefühl. " +
-                          "Um 9 Uhr Schwindel und eingeschränkte Ansprechbarkeit. " +
-                          "Thorakale Schmerzen mit Ausstrahlung in den Rücken, die nach Nitrogabe besser wurden. " +
-                          "Intermittierend im Rahmen des Herzrasens kam es zu einem leichten retrosternalen Brennen. " +
-                          "Übelkeit oder Brechreiz werden ebenso verneint wie Synkopen oder Dyspnoe. ",
-                  // Example 4
-                  "Die Patientin stellte sich gestern bereits wegen starker Schmerzen am ganzen Körper vor. " +
-                          "Am Morgen nach dem Aufstehen deutlich erhöhter Puls, gegen Nachmittag wohl thorakaler Druck, " +
-                          "auch im linken Arm, Unwohlsein und tachykarder Herzschlag.");
+      List.of(// Example 1
+              "Der Urin des Patienten ist rot verfärbt.",
+              // Example 2
+              "Die Patientin verneinte ebenfalls Husten mit Auswurf oder Brennen während Wasserlassens. " +
+                      "Sie hatte jedoch deutlich erhöhte Temperatur und Schüttelfrost in den letzten Tagen. ",
+              // Example 3
+              "Nach Aufnahme fetter Nahrung gibt sie Bauchschmerzen an. " +
+                      "Gestern Abend Beginn mit Husten und Übelkeit, dabei sporadisch Druckgefühl. " +
+                      "Um 9 Uhr Schwindel und eingeschränkte Ansprechbarkeit. " +
+                      "Thorakale Schmerzen mit Ausstrahlung in den Rücken, die nach Nitrogabe besser wurden. " +
+                      "Intermittierend im Rahmen des Herzrasens kam es zu einem leichten retrosternalen Brennen. " +
+                      "Übelkeit oder Brechreiz werden ebenso verneint wie Synkopen oder Dyspnoe. ",
+              // Example 4
+              "Die Patientin stellte sich gestern bereits wegen starker Schmerzen am ganzen Körper vor. " +
+                      "Am Morgen nach dem Aufstehen deutlich erhöhter Puls, gegen Nachmittag wohl thorakaler Druck, " +
+                      "auch im linken Arm, Unwohlsein und tachykarder Herzschlag.");
 
   public static void main(String[] args) {
     ModelSearchService searchService = new ModelSearchServiceImpl();
     ModelService modelService = new OpenNLPModelServiceImpl(searchService);
-    NER_SERVICE = modelService.loadNamedEntityRecognizer(Locale.GERMAN, ModelType.NER_MODEL_DEFAULT);
+    // Medium sized model => Use JVM parameter: -Xmx768m
+    NER_SERVICE = modelService.loadNamedEntityRecognizer(Locale.GERMAN, ModelType.NER_MODEL_WIKI_MEDIUM);
+    // Full model => Use JVM parameter: -Xmx4608m
+    /* NER_SERVICE = modelService.loadNamedEntityRecognizer(Locale.GERMAN, ModelType.NER_MODEL_WIKI); */
 
     for (String s : DEMO_TEXTS) {
       LOG.info("Detecting NEs for: '{}'", s);

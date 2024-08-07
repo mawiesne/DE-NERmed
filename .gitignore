@@ -1,5 +1,5 @@
 # Larger, binary model files shall stay outside of repo
-/models/DE-NERmed-Wiki_2023-maxent.bin
+/models/DE-NERmed-Wiki_2023*maxent.bin
 
 # Idea folder
 .idea
