@@ -22,7 +22,7 @@ public class DENerMedDemo {
 
   private static final List<String> DEMO_TEXTS =
           List.of(// Example 1
-                  "Der Urin ist dunkel verfärbt.",
+                  "Der Urin des Patienten ist rot verfärbt.",
                   // Example 2
                   "Die Patientin verneinte ebenfalls Husten mit Auswurf oder Brennen während Wasserlassens. " +
                           "Sie hatte jedoch deutlich erhöhte Temperatur und Schüttelfrost in den letzten Tagen. ",
