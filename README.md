@@ -7,7 +7,7 @@
 
 DE-NERmed (_pronounced_: de:e: ner:med:) is an object-oriented named entity recognizer (NER) for German texts with a focus on the (bio)medical domain.
                 
-It is based on [Apache OpenNLP](https://github.com/apache/opennlp) and provides pre-trained, binary Maximum-Entropy _models_ in the corresponding directory. Those have been trained during April 2024 via 88k health-related Wikipedia articles.
+It is based on [Apache OpenNLP](https://github.com/apache/opennlp) and provides pre-trained, binary Maximum-Entropy _models_ in the corresponding directory. Those have been trained during June 2024 via 88k health-related Wikipedia articles.
 
 ## Requirements
 
