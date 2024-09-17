@@ -111,7 +111,7 @@ If you use one of the **DE-NERmed** models of this project, or the code of this 
 
 > :memo: <br>
 Wiesner M. _DE-NERmed: A Named Entity Recognition Model for the Detection of German Medical Entities_.
-Deutsche Gesellschaft für Medizinische Informatik, Biometrie und Epidemiologie. 69. Jahrestagung der Deutschen Gesellschaft für Medizinische Informatik, Biometrie und Epidemiologie e.V. (GMDS). 
->Dresden, 08.-13.09.2024. Düsseldorf: German Medical Science GMS Publishing House; 2024.
+Gesundheit – gemeinsam. Kooperationstagung der Deutschen Gesellschaft für Medizinische Informatik, Biometrie und Epidemiologie (GMDS), Deutschen Gesellschaft für Sozialmedizin und Prävention (DGSMP), Deutschen Gesellschaft für Epidemiologie (DGEpi), Deutschen Gesellschaft für Medizinische Soziologie (DGMS) und der Deutschen Gesellschaft für Public Health (DGPH).
+>Dresden, 08.-13.09.2024. Düsseldorf: German Medical Science GMS Publishing House; 2024. DocAbstr. 979
 > 
-> Accepted for publication, DOI: _pending_
+> DOI: [10.3205/24gmds182](https://dx.doi.org/10.3205/24gmds182)
