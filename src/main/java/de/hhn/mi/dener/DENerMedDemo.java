@@ -10,6 +10,7 @@ import de.hhn.mi.dener.service.OpenNLPModelServiceImpl;
 import opennlp.tools.util.Span;
 import org.slf4j.Logger;
 
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
@@ -54,7 +55,7 @@ public class DENerMedDemo {
     }
     LOG.info("");
     LOG.info("Entering interactive mode, press 'q' to quit.");
-    Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in, StandardCharsets.UTF_8);
     while (true){
       String s = scanner.nextLine();
       if(s.equals("q")) {
@@ -77,7 +78,8 @@ public class DENerMedDemo {
     for (Pair<String, Span> e : entities) {
       String word = e.getFirst();
       Span span = e.getSecond();
-      LOG.info("Found NE '{}' - [pos: {}, prob: {}]", word, span.getEnd(), String.format("%.2f", span.getProb()));
+      LOG.info("Found NE '{}' - [pos: {}, prob: {}]", word, span.getEnd(),
+              String.format(Locale.ENGLISH, "%.2f", span.getProb()));
     }
   }
 }

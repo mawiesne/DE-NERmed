@@ -28,7 +28,7 @@ public class OpenNLPNamedEntityRecognizerImpl implements NamedEntityRecognizer {
     assert modelLocale != null;
     this.entityFinder = new NameFinderME(nerModel);
     if (logger.isDebugEnabled()) {
-      logger.debug("{} NamedEntityRecognizer initialization... [OK]", modelLocale.getDisplayCountry());
+      logger.debug("{} NamedEntityRecognizer initialization... [OK]", modelLocale.getDisplayCountry(Locale.ENGLISH));
     }
   }
 
