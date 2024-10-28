@@ -92,7 +92,7 @@
     <maven.pmd.version>3.17.0</maven.pmd.version>
     <maven.source.version>3.3.0</maven.source.version>
     <maven.install.version>3.1.3</maven.install.version>
-    <maven.site.version>3.20.0</maven.site.version>
+    <maven.site.version>3.21.0</maven.site.version>
     <maven.clean.version>3.4.0</maven.clean.version>
     <maven.jar.version>3.4.2</maven.jar.version>
 
