@@ -75,7 +75,7 @@
 
     <!-- additional dependencies -->
     <junit.jupiter.version>5.11.4</junit.jupiter.version>
-    <junit.platform.version>1.11.4</junit.platform.version>
+    <junit.platform.version>1.12.0</junit.platform.version>
 
     <!-- additional plugin dependencies -->
     <maven.license.plugin>2.5.0</maven.license.plugin>
