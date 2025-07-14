@@ -68,7 +68,7 @@
     <opennlp.version>2.5.4</opennlp.version>
 
     <!-- Apache commons stuff -->
-    <commons.lang3.version>3.17.0</commons.lang3.version>
+    <commons.lang3.version>3.18.0</commons.lang3.version>
 
     <slf4j.version>2.0.17</slf4j.version>
     <log4j.version>2.25.0</log4j.version>
