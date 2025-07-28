@@ -65,7 +65,7 @@
     <required.maven.version>[${minimum.maven.version},)</required.maven.version>
 
     <!-- Apache OpenNLP binding -->
-    <opennlp.version>2.5.4</opennlp.version>
+    <opennlp.version>2.5.5</opennlp.version>
 
     <!-- Apache commons stuff -->
     <commons.lang3.version>3.18.0</commons.lang3.version>
