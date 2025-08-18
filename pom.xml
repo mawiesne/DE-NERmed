@@ -81,7 +81,7 @@
     <maven.license.plugin>2.6.0</maven.license.plugin>
     <maven.gpg.plugin>3.2.8</maven.gpg.plugin>
     <maven.compiler.plugin>3.14.0</maven.compiler.plugin>
-    <maven.javadoc.plugin>3.11.2</maven.javadoc.plugin>
+    <maven.javadoc.plugin>3.11.3</maven.javadoc.plugin>
     <maven.surefire.plugin>3.5.3</maven.surefire.plugin>
     <maven.failsafe.plugin>3.0.0</maven.failsafe.plugin>
     <maven.build.helper.plugin>3.3.0</maven.build.helper.plugin>
