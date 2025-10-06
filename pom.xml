@@ -88,7 +88,7 @@
     <maven.forbiddenapis.plugin>3.9</maven.forbiddenapis.plugin>
     <maven.source.plugin>3.3.1</maven.source.plugin>
     <maven.versions.version>2.19.1</maven.versions.version>
-    <maven.enforcer.version>3.6.1</maven.enforcer.version>
+    <maven.enforcer.version>3.6.2</maven.enforcer.version>
     <maven.pmd.version>3.17.0</maven.pmd.version>
     <maven.source.version>3.3.0</maven.source.version>
     <maven.install.version>3.1.4</maven.install.version>
