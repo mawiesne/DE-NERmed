@@ -85,7 +85,7 @@
     <maven.surefire.plugin>3.5.4</maven.surefire.plugin>
     <maven.failsafe.plugin>3.0.0</maven.failsafe.plugin>
     <maven.build.helper.plugin>3.3.0</maven.build.helper.plugin>
-    <maven.forbiddenapis.plugin>3.9</maven.forbiddenapis.plugin>
+    <maven.forbiddenapis.plugin>3.10</maven.forbiddenapis.plugin>
     <maven.source.plugin>3.3.1</maven.source.plugin>
     <maven.versions.version>2.19.1</maven.versions.version>
     <maven.enforcer.version>3.6.1</maven.enforcer.version>
