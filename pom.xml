@@ -94,7 +94,7 @@
     <maven.install.version>3.1.4</maven.install.version>
     <maven.site.version>3.21.0</maven.site.version>
     <maven.clean.version>3.5.0</maven.clean.version>
-    <maven.jar.version>3.4.2</maven.jar.version>
+    <maven.jar.version>3.5.0</maven.jar.version>
 
     <jacoco.version>0.8.8</jacoco.version>
 
